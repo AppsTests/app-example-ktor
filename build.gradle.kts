@@ -14,6 +14,12 @@ application {
     mainClass.set("com.example.ApplicationKt")
 }
 
+ktor {
+    fatJar {
+        archiveFileName.set("app.jar")
+    }
+}
+
 repositories {
     mavenCentral()
 }
